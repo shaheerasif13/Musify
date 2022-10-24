@@ -10,6 +10,7 @@ import android.widget.TextView;
 public class SignUpActivity extends AppCompatActivity {
 
     private TextView backButton;
+    private TextView signUpButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,17 @@ public class SignUpActivity extends AppCompatActivity {
         this.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SignUpActivity.this, SignUpOptionsActivity.class);
+                onBackPressed();
+            }
+        });
+
+        // Switching to home screen
+        this.signUpButton = findViewById(R.id.sign_up_button);
+
+        this.signUpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SignUpActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
                 finish();
             }

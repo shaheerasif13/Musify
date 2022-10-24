@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.162" />
+        <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/drawable/circle.xml" value="0.18" />
+        <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/drawable/half_rounded_rectangle.xml" value="0.18" />
+        <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.18" />
+        <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.18" />
         <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/drawable/ic_launcher_background.xml" value="0.162" />
         <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/drawable/rectangle_rounded_corners.xml" value="0.162" />
+        <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/layout/activity_home_screen.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/layout/activity_sign_in.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/layout/activity_sign_up.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shahe/AndroidStudioProjects/Musify/app/src/main/res/layout/activity_sign_up_options.xml" value="0.26614583333333336" />

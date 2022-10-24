@@ -24,9 +24,7 @@ public class SignUpOptionsActivity extends AppCompatActivity {
         this.signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SignUpOptionsActivity.this, SignInActivity.class);
-                startActivity(intent);
-                finish();
+                onBackPressed();
             }
         });
 
@@ -38,7 +36,6 @@ public class SignUpOptionsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(SignUpOptionsActivity.this, SignUpActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
     }

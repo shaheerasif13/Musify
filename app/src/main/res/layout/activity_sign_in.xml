@@ -71,6 +71,7 @@
             android:layout_height="40dp"/>
 
         <TextView
+            android:id="@+id/sign_in_button"
             android:layout_marginTop="30dp"
             android:paddingTop="6dp"
             android:textAlignment="center"
