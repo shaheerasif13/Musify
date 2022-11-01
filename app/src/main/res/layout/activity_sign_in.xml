@@ -19,13 +19,13 @@
 
             <TextView
                 android:id="@+id/sign_up_button"
-                android:layout_alignParentEnd="true"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:textColor="@color/white"
-                android:text="Sign up"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="Sign up"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -49,6 +49,8 @@
             android:layout_height="wrap_content"/>
 
         <EditText
+            android:id="@+id/sign_in_email"
+            android:inputType="textEmailAddress"
             android:layout_marginTop="15dp"
             android:paddingLeft="10dp"
             android:textStyle="bold"
@@ -60,6 +62,8 @@
             android:layout_height="40dp"/>
 
         <EditText
+            android:id="@+id/sign_in_password"
+            android:inputType="textPassword"
             android:layout_marginTop="15dp"
             android:paddingLeft="10dp"
             android:textStyle="bold"
