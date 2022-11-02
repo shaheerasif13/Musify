@@ -36,152 +36,152 @@
         </RelativeLayout>
 
         <LinearLayout
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:orientation="vertical"
-            android:layout_above="@+id/current_song"
-            android:layout_below="@+id/menu_and_profile_button"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_above="@+id/current_song_bar"
+            android:layout_below="@+id/menu_and_profile_button"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
             <TextView
-                android:paddingLeft="8dp"
-                android:layout_marginTop="10dp"
-                android:textStyle="bold"
-                android:textSize="40sp"
-                android:textColor="@color/white"
-                android:text="Playlists"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="Playlists"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
             <HorizontalScrollView
-                android:scrollbars="none"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none">
 
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/playlist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/playlist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="Playlist 1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/playlist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/playlist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="Playlist 2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/playlist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/playlist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="Playlist 3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/playlist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/playlist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="Playlist 4"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/playlist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/playlist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
-                            android:text="Playlist 5"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content"
+                            android:text="Playlist 5"
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -190,143 +190,143 @@
             </HorizontalScrollView>
 
             <TextView
-                android:paddingLeft="8dp"
-                android:layout_marginTop="20dp"
-                android:textStyle="bold"
-                android:textSize="40sp"
-                android:textColor="@color/white"
-                android:text="Artists"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="8dp"
+                android:text="Artists"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
             <HorizontalScrollView
-                android:scrollbars="none"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none">
 
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/artist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/artist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="Artist 1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/artist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/artist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="Artist 2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/artist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/artist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="Artist 3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/artist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/artist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="Artist 4"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:maxWidth="125dp"
                             android:maxHeight="125dp"
-                            android:src="@drawable/artist_picture"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:src="@drawable/artist_picture" />
 
                         <TextView
-                            android:textAlignment="center"
-                            android:textSize="17dp"
-                            android:textStyle="bold"
-                            android:textColor="#FFB900"
-                            android:text="Artist 5"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content"
+                            android:text="Artist 5"
+                            android:textAlignment="center"
+                            android:textColor="#FFB900"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -337,7 +337,7 @@
         </LinearLayout>
 
         <RelativeLayout
-            android:id="@+id/current_song"
+            android:id="@+id/current_song_bar"
             android:layout_above="@+id/navigation_bar"
             android:layout_width="match_parent"
             android:layout_height="50dp">
@@ -374,6 +374,7 @@
                 android:weightSum="3">
 
                 <ImageView
+                    android:id="@+id/fast_rewind_button"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -383,6 +384,7 @@
                     android:src="@drawable/ic_baseline_fast_rewind_24" />
 
                 <ImageView
+                    android:id="@+id/home_screen_play_pause_music_button"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -392,6 +394,7 @@
                     android:src="@drawable/ic_baseline_play_arrow_24" />
 
                 <ImageView
+                    android:id="@+id/fast_forward_button"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"

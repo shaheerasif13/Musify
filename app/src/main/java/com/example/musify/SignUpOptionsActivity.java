@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 public class SignUpOptionsActivity extends AppCompatActivity {
 
+    private static final String TAG = "SignUpOptionsActivity";
     private TextView signInButton;
     private RelativeLayout continueWithCreateAccount;
 

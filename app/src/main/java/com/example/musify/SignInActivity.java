@@ -21,6 +21,7 @@ import com.google.firebase.auth.UserProfileChangeRequest;
 
 public class SignInActivity extends AppCompatActivity {
 
+    private static final String TAG = "SignInActivity";
     private TextView signUpButton;
     private EditText emailEditText;
     private EditText passwordEditText;
